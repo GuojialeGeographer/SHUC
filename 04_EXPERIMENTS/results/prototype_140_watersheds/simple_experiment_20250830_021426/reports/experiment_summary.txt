@@ -1,0 +1,16 @@
+SHUC 简化实验总结报告
+==================================================
+
+实验时间: 2025-08-30 02:14:26
+输出目录: ./shuc_results/simple_experiment_20250830_021426
+
+处理结果:
+  - 输入流域数: 140
+  - 最终流域数: 140
+  - 编码成功率: 100.0%
+  - 编码唯一性: 100.0%
+
+输出文件:
+  - 合并数据: merged_watersheds/merged_watersheds.shp
+  - 编码数据: encoded_watersheds/shuc_watersheds.shp
+  - 验证报告: validation_results/validation_report.json

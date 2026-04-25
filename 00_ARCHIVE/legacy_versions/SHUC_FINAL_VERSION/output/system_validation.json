@@ -1,0 +1,40 @@
+{
+  "timestamp": "2025-08-31T00:36:22.200299",
+  "total_original": 140,
+  "total_final": 69,
+  "compression_rate": 50.7,
+  "area_compliance": {
+    "compliant_count": 4,
+    "total_count": 69,
+    "compliance_rate": 5.8,
+    "target_met": false
+  },
+  "code_validation": {
+    "total_codes": 69,
+    "unique_codes": 69,
+    "uniqueness": true,
+    "duplicate_count": 0
+  },
+  "hierarchy_distribution": {
+    "level_6": {
+      "count": 69,
+      "min_area": 15.6,
+      "max_area": 133.0,
+      "avg_area": 37.3
+    }
+  },
+  "data_quality": {
+    "spatial_integrity": true,
+    "topology_preserved": true,
+    "merge_operations": 71,
+    "issues_resolved": [
+      "修复流域 3150 USLINKNO2自引用",
+      "修复了 4 个无效几何体"
+    ]
+  },
+  "issues_fixed": 2,
+  "overall_validation": {
+    "passed": false,
+    "score": 52.9
+  }
+}

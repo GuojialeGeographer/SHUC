@@ -1,0 +1,15 @@
+{
+  "total_watersheds": 12,
+  "area_compliance": 91.66666666666666,
+  "code_uniqueness": true,
+  "hierarchy_completeness": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 1,
+    "5": 5,
+    "6": 6
+  },
+  "spatial_integrity": true,
+  "missing_3150_resolved": false
+}

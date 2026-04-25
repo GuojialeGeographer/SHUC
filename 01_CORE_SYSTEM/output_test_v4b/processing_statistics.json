@@ -1,0 +1,27 @@
+{
+  "start_time": "2026-04-07T12:53:10.852940",
+  "version": "4.0.0",
+  "config_used": "../config/shuc_config.json",
+  "merge_statistics": {
+    "original_count": 140,
+    "final_count": 140,
+    "compression_rate": 0.0,
+    "final_compliance_rate": 0.0,
+    "iterations": 1,
+    "dynamic_threshold_used": 50
+  },
+  "validation_summary": {
+    "compliance_rate": 0.0,
+    "total_watersheds": 140,
+    "hierarchy_levels": {
+      "Level_6": {
+        "count": 140,
+        "percentage": 100.0
+      }
+    },
+    "overall_score": 58.4,
+    "quality_grade": "不合格 (Failed)"
+  },
+  "merit_basins_topology": null,
+  "dynamic_threshold": 50
+}

@@ -1,0 +1,151 @@
+{
+  "huc_standard_reference": {
+    "description": "美国HUC (Hydrologic Unit Code) 标准参考",
+    "source": "USGS - United States Geological Survey",
+    "version": "HUC-2021",
+    "url": "https://water.usgs.gov/GIS/huc.html"
+  },
+  "huc_levels": {
+    "huc2": {
+      "description": "水资源区域 (Water Resource Regions)",
+      "code_length": 2,
+      "typical_area_km2": {
+        "min": 100000,
+        "max": 1000000,
+        "average": 400000
+      },
+      "examples": ["01", "02", "03", "04", "05"]
+    },
+    "huc4": {
+      "description": "水资源子区域 (Water Resource Subregions)",
+      "code_length": 4,
+      "typical_area_km2": {
+        "min": 25000,
+        "max": 250000,
+        "average": 100000
+      },
+      "examples": ["0101", "0102", "0201", "0301"]
+    },
+    "huc6": {
+      "description": "水文区域 (Hydrologic Basins)",
+      "code_length": 6,
+      "typical_area_km2": {
+        "min": 5000,
+        "max": 50000,
+        "average": 20000
+      },
+      "examples": ["010100", "010101", "020101"]
+    },
+    "huc8": {
+      "description": "水文子区域 (Hydrologic Subbasins)",
+      "code_length": 8,
+      "typical_area_km2": {
+        "min": 1000,
+        "max": 10000,
+        "average": 4000
+      },
+      "examples": ["01010001", "01010002", "02010101"]
+    },
+    "huc10": {
+      "description": "流域 (Watersheds)",
+      "code_length": 10,
+      "typical_area_km2": {
+        "min": 200,
+        "max": 2000,
+        "average": 800
+      },
+      "examples": ["0101000101", "0101000102"]
+    },
+    "huc12": {
+      "description": "子流域 (Subwatersheds)",
+      "code_length": 12,
+      "typical_area_km2": {
+        "min": 50,
+        "max": 500,
+        "average": 200
+      },
+      "examples": ["010100010101", "010100010102"]
+    }
+  },
+  "chinese_shuc_adaptation": {
+    "description": "中国SHUC系统对HUC标准的适配",
+    "modifications": [
+      "基于中国地理环境调整面积阈值",
+      "适配中国流域特征和分布",
+      "考虑东西部地理差异",
+      "集成中国水系命名规范"
+    ],
+    "level_mapping": {
+      "1": {
+        "equivalent_to": "huc2",
+        "chinese_name": "大区流域",
+        "adapted_area_km2": {
+          "min": 50000,
+          "target": 200000
+        }
+      },
+      "2": {
+        "equivalent_to": "huc4", 
+        "chinese_name": "区域流域",
+        "adapted_area_km2": {
+          "min": 10000,
+          "target": 50000
+        }
+      },
+      "3": {
+        "equivalent_to": "huc6",
+        "chinese_name": "大流域", 
+        "adapted_area_km2": {
+          "min": 2000,
+          "target": 10000
+        }
+      },
+      "4": {
+        "equivalent_to": "huc8",
+        "chinese_name": "中流域",
+        "adapted_area_km2": {
+          "min": 500,
+          "target": 2000
+        }
+      },
+      "5": {
+        "equivalent_to": "huc10",
+        "chinese_name": "小流域",
+        "adapted_area_km2": {
+          "min": 100,
+          "target": 500
+        }
+      },
+      "6": {
+        "equivalent_to": "huc12",
+        "chinese_name": "基本单元",
+        "adapted_area_km2": {
+          "min": 50,
+          "target": 200
+        }
+      }
+    }
+  },
+  "validation_criteria": {
+    "area_compliance": {
+      "description": "面积合规性检查",
+      "threshold": 0.80,
+      "calculation": "符合面积标准的流域数量 / 总流域数量"
+    },
+    "code_uniqueness": {
+      "description": "编码唯一性验证",
+      "threshold": 1.00,
+      "calculation": "唯一编码数量 / 总编码数量"
+    },
+    "hierarchy_completeness": {
+      "description": "层次完整性检查",
+      "threshold": 0.95,
+      "calculation": "有效层次关系数量 / 总关系数量"
+    },
+    "geometric_validity": {
+      "description": "几何有效性验证",
+      "threshold": 0.95,
+      "calculation": "有效几何对象数量 / 总几何对象数量"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "total_conflicts": 1303,
+  "resolved_count": 621,
+  "partial_resolved": 282,
+  "unresolved": 400,
+  "resolution_methods": {
+    "高程平滑插值算法": 545,
+    "数据填补算法": 219,
+    "投影坐标转换算法": 164,
+    "分辨率统一算法": 176,
+    "权重融合算法": 199
+  }
+}

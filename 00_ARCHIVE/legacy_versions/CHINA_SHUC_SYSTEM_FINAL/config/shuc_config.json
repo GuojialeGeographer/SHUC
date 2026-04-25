@@ -1,0 +1,43 @@
+{
+  "processing": {
+    "target_compliance_rate": 0.90,
+    "merge_strategy": "aggressive",
+    "max_iterations": 50,
+    "enable_early_stopping": true,
+    "dynamic_threshold_mode": "auto"
+  },
+  "hierarchy": {
+    "level_4_min_area": 1000,
+    "level_5_min_area": 200,
+    "level_6_min_area": 50,
+    "enable_level_quotas": true,
+    "level_quotas": {
+      "4": 3,
+      "5": 8,
+      "6": -1
+    }
+  },
+  "validation": {
+    "area_compliance_threshold": 0.80,
+    "coding_uniqueness_threshold": 1.00,
+    "topology_completeness_threshold": 0.95,
+    "enable_geometry_validation": true,
+    "quality_weights": {
+      "area_compliance": 0.40,
+      "coding_quality": 0.30,
+      "topology_integrity": 0.20,
+      "geometry_validity": 0.10
+    }
+  },
+  "output": {
+    "save_intermediate_results": false,
+    "enable_detailed_logging": true,
+    "export_validation_report": true,
+    "export_statistics": true
+  },
+  "performance": {
+    "enable_parallel_processing": false,
+    "max_memory_usage_gb": 4,
+    "enable_progress_display": true
+  }
+}

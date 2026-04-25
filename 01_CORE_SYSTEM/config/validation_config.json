@@ -1,0 +1,46 @@
+{
+  "thresholds": {
+    "area_compliance_threshold": 0.80,
+    "coding_uniqueness_threshold": 1.00,
+    "topology_completeness_threshold": 0.95,
+    "geometry_validity_threshold": 0.95,
+    "hierarchy_balance_threshold": 0.70
+  },
+  "quality_weights": {
+    "area_compliance": 0.40,
+    "coding_quality": 0.30,
+    "topology_integrity": 0.20,
+    "geometry_validity": 0.10
+  },
+  "validation_rules": {
+    "require_unique_codes": true,
+    "require_valid_topology": true,
+    "require_valid_geometry": true,
+    "require_area_above_threshold": true,
+    "allow_empty_upstream": true
+  },
+  "quality_grades": {
+    "excellent": {
+      "min_score": 90,
+      "description": "优秀 (Excellent)"
+    },
+    "good": {
+      "min_score": 80,
+      "description": "良好 (Good)"
+    },
+    "acceptable": {
+      "min_score": 70,
+      "description": "可接受 (Acceptable)"
+    },
+    "needs_improvement": {
+      "min_score": 0,
+      "description": "需要改进 (Needs Improvement)"
+    }
+  },
+  "report_settings": {
+    "include_detailed_analysis": true,
+    "include_issue_suggestions": true,
+    "include_performance_metrics": true,
+    "export_format": "json"
+  }
+}

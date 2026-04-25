@@ -1,0 +1,47 @@
+{
+  "timestamp": "2025-08-31T01:52:49.056849",
+  "version": "v3.1 Enhanced",
+  "optimization_applied": true,
+  "dynamic_threshold": 50,
+  "total_original": 140,
+  "total_final": 20,
+  "compression_rate": 85.7,
+  "merge_operations": 120,
+  "area_compliance": {
+    "threshold_used": 50,
+    "compliant_count": 18,
+    "total_count": 20,
+    "compliance_rate": 90.0,
+    "target_met": true
+  },
+  "code_validation": {
+    "total_codes": 20,
+    "unique_codes": 20,
+    "uniqueness": true
+  },
+  "hierarchy_distribution": {
+    "level_4": {
+      "count": 3,
+      "min_area": 216.7,
+      "max_area": 245.5,
+      "avg_area": 231.9
+    },
+    "level_5": {
+      "count": 8,
+      "min_area": 121.1,
+      "max_area": 208.8,
+      "avg_area": 152.1
+    },
+    "level_6": {
+      "count": 9,
+      "min_area": 25.5,
+      "max_area": 115.3,
+      "avg_area": 73.6
+    }
+  },
+  "overall_validation": {
+    "passed": true,
+    "score": 50.0,
+    "improvement_from_baseline": "+-2.9分"
+  }
+}

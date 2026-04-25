@@ -1,0 +1,38 @@
+[09:14:17] INFO - 🚀 中国SHUC系统 v3.1.0 初始化完成
+[09:14:17] INFO - 📁 输出目录: /Users/bruce/10_Current Project/SHUC_EXPERIMENT_2025/01_CORE_SYSTEM/output
+[09:14:17] INFO - ⚙️  配置文件: /Users/bruce/10_Current Project/SHUC_EXPERIMENT_2025/01_CORE_SYSTEM/config/shuc_config.json
+[09:14:17] INFO - ============================================================
+[09:14:17] INFO - 🎯 开始SHUC流域处理
+[09:14:17] INFO - ============================================================
+[09:14:17] INFO - 📊 步骤1: 数据预处理和验证
+[09:14:17] INFO - ✅ 输入数据验证通过: 140 个流域
+[09:14:17] INFO - 🔄 步骤2: 流域智能合并
+[09:14:17] ERROR - ❌ 处理过程中出现错误: The truth value of a GeoDataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[09:18:00] INFO - 🚀 中国SHUC系统 v3.1.0 初始化完成
+[09:18:00] INFO - 📁 输出目录: /Users/bruce/10_Current Project/SHUC_EXPERIMENT_2025/01_CORE_SYSTEM/output
+[09:18:00] INFO - ⚙️  配置文件: /Users/bruce/10_Current Project/SHUC_EXPERIMENT_2025/01_CORE_SYSTEM/config/shuc_config.json
+[09:18:00] INFO - ============================================================
+[09:18:00] INFO - 🎯 开始SHUC流域处理
+[09:18:00] INFO - ============================================================
+[09:18:00] INFO - 📊 步骤1: 数据预处理和验证
+[09:18:00] INFO - ✅ 输入数据验证通过: 140 个流域
+[09:18:00] INFO - 🔄 步骤2: 流域智能合并
+[09:18:00] INFO - 🏷️  步骤3: 层次编码分配
+[09:18:00] INFO - ✅ 步骤4: 质量验证
+[09:18:00] INFO - 💾 步骤5: 保存处理结果
+[09:18:00] INFO - 💾 结果已保存到: /Users/bruce/10_Current Project/SHUC_EXPERIMENT_2025/01_CORE_SYSTEM/output
+[09:18:00] INFO -   - watersheds: shuc_watersheds.shp
+[09:18:00] INFO -   - validation_report: validation_report.json
+[09:18:00] INFO -   - statistics: processing_statistics.json
+[09:18:00] INFO - 
+📊 处理摘要:
+[09:18:00] INFO -   • 处理前流域数量: 140
+[09:18:00] INFO -   • 处理后流域数量: 7
+[09:18:00] INFO -   • 数据压缩率: 95.0%
+[09:18:00] INFO -   • 面积合规率: 85.7%
+[09:18:00] INFO -   • 层次结构: Level 5-6
+[09:18:00] INFO -   • 系统评分: 87.1/100
+[09:18:00] INFO -   • 处理耗时: 0.9 秒
+[09:18:00] INFO - ============================================================
+[09:18:00] INFO - 🎉 SHUC流域处理完成!
+[09:18:00] INFO - ============================================================

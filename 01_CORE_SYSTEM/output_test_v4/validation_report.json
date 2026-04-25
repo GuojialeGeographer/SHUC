@@ -1,0 +1,138 @@
+{
+  "validation_timestamp": "2026-04-07T12:42:42.129534",
+  "validator_version": "4.0.0",
+  "basic_info": {
+    "total_watersheds": 140,
+    "total_area_km2": 0.0,
+    "min_area_km2": NaN,
+    "max_area_km2": NaN,
+    "mean_area_km2": NaN,
+    "has_shuc_codes": true,
+    "has_shuc_levels": true,
+    "detected_id_field": "LINKNO",
+    "detected_ds_field": "DSLINKNO"
+  },
+  "area_compliance": {
+    "dynamic_threshold_km2": 50,
+    "compliant_watersheds": 0,
+    "total_watersheds": 0,
+    "compliance_rate": 0.0,
+    "meets_threshold": false,
+    "area_distribution": {}
+  },
+  "coding_quality": {
+    "has_codes": true,
+    "total_codes": 140,
+    "unique_codes": 140,
+    "uniqueness_rate": 1.0,
+    "meets_uniqueness_threshold": true,
+    "duplicate_codes": 0,
+    "code_format_analysis": {
+      "valid_formats": 140,
+      "invalid_formats": 0,
+      "empty_codes": 0,
+      "format_examples": [
+        "000000000001",
+        "000000000002",
+        "000000000003",
+        "000000000004",
+        "000000000005"
+      ]
+    },
+    "code_length_analysis": {
+      "analyzed": true,
+      "length_mismatches": 0,
+      "level_length_summary": {
+        "Level_6": {
+          "expected_length": 12,
+          "min_actual": 12,
+          "max_actual": 13,
+          "mean_actual": 12.3
+        }
+      }
+    }
+  },
+  "topology_integrity": {
+    "has_topology_fields": true,
+    "valid_references": 138,
+    "invalid_references": 1,
+    "orphan_watersheds": 1,
+    "circular_references": 1,
+    "cycle_details": [
+      {
+        "path": [
+          9037
+        ],
+        "length": 1
+      }
+    ],
+    "chain_completeness": {
+      "total_chains_checked": 140,
+      "complete_chains": 57,
+      "incomplete_chains": 83,
+      "chain_reach_outlet": 56,
+      "chain_reach_boundary": 1,
+      "max_chain_length": 25,
+      "mean_chain_length": 10.9
+    },
+    "detected_id_field": "LINKNO",
+    "detected_ds_field": "DSLINKNO",
+    "detected_us_fields": [
+      "USLINKNO1",
+      "USLINKNO2"
+    ],
+    "has_cycles": true,
+    "upstream_consistency": {
+      "checked": true,
+      "consistent_pairs": 133,
+      "inconsistent_pairs": 5
+    },
+    "completeness_rate": 0.986,
+    "meets_completeness_threshold": true
+  },
+  "geometry_validity": {
+    "total_geometries": 140,
+    "valid_geometries": 140,
+    "invalid_geometries": 0,
+    "empty_geometries": 0,
+    "geometry_types": {
+      "Polygon": 113,
+      "MultiPolygon": 27
+    },
+    "invalid_ids": [],
+    "validity_rate": 1.0
+  },
+  "metadata_consistency": {
+    "checked": true,
+    "downstream_code_valid": 138,
+    "downstream_code_invalid": 0,
+    "upstream_code_valid": 162,
+    "upstream_code_invalid": 0
+  },
+  "hierarchy_analysis": {
+    "has_hierarchy": true,
+    "level_distribution": {
+      "Level_6": {
+        "count": 140,
+        "percentage": 100.0
+      }
+    },
+    "level_range": "Level 6-6",
+    "hierarchy_balance": {
+      "total_levels": 1,
+      "most_common_level": 6,
+      "level_distribution_evenness": 1.0
+    },
+    "level_area_stats": {
+      "Level_6": {
+        "count": 140,
+        "mean_area_km2": NaN,
+        "min_area_km2": NaN,
+        "max_area_km2": NaN
+      }
+    }
+  },
+  "quality_issues": [],
+  "overall_score": 58.4,
+  "quality_grade": "不合格 (Failed)"
+}

@@ -1,0 +1,96 @@
+{
+  "system": {
+    "version": "4.0.0",
+    "description": "中国流域层次分级编码系统 (SHUC) - 6级12位完整编码",
+    "area_calculation_method": "pyproj.Geod (WGS84)"
+  },
+  "processing": {
+    "target_compliance_rate": 0.90,
+    "merge_strategy": "aggressive",
+    "max_iterations": 50,
+    "enable_early_stopping": true,
+    "dynamic_threshold_mode": "auto",
+    "threshold_min": 50,
+    "threshold_max": 500,
+    "threshold_formula": "Q75+(Q90-Q75)/2"
+  },
+  "hierarchy": {
+    "level_1_min_area": 500000,
+    "level_1_max_area": null,
+    "level_2_min_area": 50000,
+    "level_2_max_area": 500000,
+    "level_3_min_area": 5000,
+    "level_3_max_area": 50000,
+    "level_4_min_area": 1000,
+    "level_4_max_area": 5000,
+    "level_5_min_area": 200,
+    "level_5_max_area": 1000,
+    "level_6_min_area": 50,
+    "level_6_max_area": 200,
+    "enable_level_quotas": true,
+    "level_quotas": {
+      "1": -1,
+      "2": -1,
+      "3": -1,
+      "4": 3,
+      "5": 8,
+      "6": -1
+    }
+  },
+  "validation": {
+    "area_compliance_threshold": 0.80,
+    "coding_uniqueness_threshold": 1.00,
+    "topology_completeness_threshold": 0.95,
+    "enable_geometry_validation": true,
+    "threshold_min": 50,
+    "threshold_max": 500,
+    "threshold_formula": "Q75+(Q90-Q75)/2",
+    "quality_weights": {
+      "area_compliance": 0.40,
+      "coding_quality": 0.25,
+      "topology_integrity": 0.25,
+      "geometry_validity": 0.10
+    }
+  },
+  "merit_basins": {
+    "catchment_path": "",
+    "river_path": "",
+    "china_pfaf_regions": ["08", "09", "10"],
+    "bounds": null,
+    "target_crs": null,
+    "enable_topology_validation": true,
+    "enable_cycle_detection": true
+  },
+  "merit_hydro": {
+    "data_dir": "",
+    "resolution_m": 90,
+    "tiles": [],
+    "variables": ["dir", "upa", "elv", "bas"]
+  },
+  "output": {
+    "save_intermediate_results": false,
+    "enable_detailed_logging": true,
+    "export_validation_report": true,
+    "export_statistics": true,
+    "export_merge_history": true
+  },
+  "performance": {
+    "enable_parallel_processing": false,
+    "max_memory_usage_gb": 4,
+    "enable_progress_display": true,
+    "enable_spatial_index": true,
+    "spatial_index_type": "STRtree"
+  },
+  "experiment": {
+    "threshold_strategies": [60, 80, 100, 120, 150],
+    "merge_strategies": ["topology_first", "greedy", "random"],
+    "sensitivity_parameters": {
+      "quantile_low": [0.50, 0.75],
+      "quantile_high": [0.85, 0.90, 0.95],
+      "max_iterations": [20, 50, 100],
+      "early_stop_threshold": [3, 5, 10]
+    },
+    "num_random_trials": 10,
+    "output_format": ["json", "csv"]
+  }
+}

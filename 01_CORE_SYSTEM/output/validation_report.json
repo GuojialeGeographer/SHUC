@@ -1,0 +1,94 @@
+{
+  "validation_timestamp": "2026-04-03T09:18:00.847479",
+  "basic_info": {
+    "total_watersheds": 7,
+    "total_area_km2": 1042.27,
+    "min_area_km2": 54.05,
+    "max_area_km2": 276.19,
+    "mean_area_km2": 148.9,
+    "has_shuc_codes": true,
+    "has_shuc_levels": true
+  },
+  "area_compliance": {
+    "dynamic_threshold_km2": 100,
+    "compliant_watersheds": 6,
+    "total_watersheds": 7,
+    "compliance_rate": 0.857,
+    "meets_threshold": true,
+    "area_distribution": {
+      "below_threshold": 1,
+      "above_threshold": 6,
+      "small_watersheds_0_50": 0,
+      "medium_watersheds_50_200": 6,
+      "large_watersheds_200_plus": 1,
+      "area_statistics": {
+        "q25": 121.27,
+        "q50": 152.63,
+        "q75": 158.43,
+        "q90": 206.27
+      }
+    }
+  },
+  "coding_quality": {
+    "has_codes": true,
+    "total_codes": 7,
+    "unique_codes": 6,
+    "uniqueness_rate": 0.857,
+    "meets_uniqueness_threshold": false,
+    "duplicate_codes": 1,
+    "code_format_analysis": {
+      "valid_formats": 7,
+      "invalid_formats": 0,
+      "empty_codes": 0,
+      "format_examples": [
+        "0003",
+        "0004",
+        "0001",
+        "0005",
+        "0006"
+      ]
+    }
+  },
+  "topology_integrity": {
+    "has_topology_fields": true,
+    "valid_references": 6,
+    "invalid_references": 1,
+    "orphan_watersheds": 0,
+    "circular_references": 5,
+    "completeness_rate": 0.857,
+    "meets_completeness_threshold": false
+  },
+  "geometry_validity": {
+    "total_geometries": 7,
+    "valid_geometries": 7,
+    "invalid_geometries": 0,
+    "empty_geometries": 0,
+    "geometry_types": {
+      "Polygon": 5,
+      "MultiPolygon": 2
+    },
+    "validity_rate": 1.0
+  },
+  "hierarchy_analysis": {
+    "has_hierarchy": true,
+    "level_distribution": {
+      "Level_5": {
+        "count": 1,
+        "percentage": 14.3
+      },
+      "Level_6": {
+        "count": 6,
+        "percentage": 85.7
+      }
+    },
+    "level_range": "Level 5-6",
+    "hierarchy_balance": {
+      "total_levels": 2,
+      "most_common_level": 6,
+      "level_distribution_evenness": 0.592
+    }
+  },
+  "quality_issues": [],
+  "overall_score": 87.1,
+  "quality_grade": "良好 (Good)"
+}

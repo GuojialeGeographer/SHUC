@@ -1,0 +1,1296 @@
+{
+  "plan_id": "SEAMLESS_PLAN_20250831_135748",
+  "total_tiles": 252,
+  "processing_order": [
+    {
+      "sequence": 1,
+      "tile_id": "DEM_CN_001",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 2,
+      "tile_id": "DEM_CN_002",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 3,
+      "tile_id": "DEM_CN_003",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 4,
+      "tile_id": "DEM_CN_004",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 5,
+      "tile_id": "DEM_CN_005",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 6,
+      "tile_id": "DEM_CN_006",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 7,
+      "tile_id": "DEM_CN_007",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 8,
+      "tile_id": "DEM_CN_008",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 9,
+      "tile_id": "DEM_CN_009",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 10,
+      "tile_id": "DEM_CN_010",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 11,
+      "tile_id": "DEM_CN_011",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 12,
+      "tile_id": "DEM_CN_012",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 13,
+      "tile_id": "DEM_CN_013",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 14,
+      "tile_id": "DEM_CN_014",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 15,
+      "tile_id": "DEM_CN_015",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 16,
+      "tile_id": "DEM_CN_016",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 17,
+      "tile_id": "DEM_CN_017",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 18,
+      "tile_id": "DEM_CN_018",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 19,
+      "tile_id": "DEM_CN_019",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 20,
+      "tile_id": "DEM_CN_020",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 21,
+      "tile_id": "DEM_CN_021",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 22,
+      "tile_id": "DEM_CN_022",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 23,
+      "tile_id": "DEM_CN_023",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 24,
+      "tile_id": "DEM_CN_024",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 25,
+      "tile_id": "DEM_CN_025",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 26,
+      "tile_id": "DEM_CN_026",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 27,
+      "tile_id": "DEM_CN_027",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 28,
+      "tile_id": "DEM_CN_028",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 29,
+      "tile_id": "DEM_CN_029",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 30,
+      "tile_id": "DEM_CN_030",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 31,
+      "tile_id": "DEM_CN_031",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 32,
+      "tile_id": "DEM_CN_032",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 33,
+      "tile_id": "DEM_CN_033",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 34,
+      "tile_id": "DEM_CN_034",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 35,
+      "tile_id": "DEM_CN_035",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 36,
+      "tile_id": "DEM_CN_036",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 37,
+      "tile_id": "DEM_CN_037",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 38,
+      "tile_id": "DEM_CN_038",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 39,
+      "tile_id": "DEM_CN_039",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 40,
+      "tile_id": "DEM_CN_040",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 41,
+      "tile_id": "DEM_CN_041",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 42,
+      "tile_id": "DEM_CN_042",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 43,
+      "tile_id": "DEM_CN_043",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 44,
+      "tile_id": "DEM_CN_044",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 45,
+      "tile_id": "DEM_CN_045",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 46,
+      "tile_id": "DEM_CN_046",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 47,
+      "tile_id": "DEM_CN_047",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 48,
+      "tile_id": "DEM_CN_048",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 49,
+      "tile_id": "DEM_CN_049",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 50,
+      "tile_id": "DEM_CN_050",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 51,
+      "tile_id": "DEM_CN_051",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 52,
+      "tile_id": "DEM_CN_052",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 53,
+      "tile_id": "DEM_CN_053",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 54,
+      "tile_id": "DEM_CN_054",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 55,
+      "tile_id": "DEM_CN_055",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 56,
+      "tile_id": "DEM_CN_056",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 57,
+      "tile_id": "DEM_CN_057",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 58,
+      "tile_id": "DEM_CN_058",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 59,
+      "tile_id": "DEM_CN_059",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 60,
+      "tile_id": "DEM_CN_060",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 61,
+      "tile_id": "DEM_CN_061",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 62,
+      "tile_id": "DEM_CN_062",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 63,
+      "tile_id": "DEM_CN_063",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 64,
+      "tile_id": "DEM_CN_064",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 65,
+      "tile_id": "DEM_CN_065",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 66,
+      "tile_id": "DEM_CN_066",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 67,
+      "tile_id": "DEM_CN_067",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 68,
+      "tile_id": "DEM_CN_068",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 69,
+      "tile_id": "DEM_CN_069",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 70,
+      "tile_id": "DEM_CN_070",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 71,
+      "tile_id": "DEM_CN_071",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 72,
+      "tile_id": "DEM_CN_072",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 73,
+      "tile_id": "DEM_CN_073",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 74,
+      "tile_id": "DEM_CN_074",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 75,
+      "tile_id": "DEM_CN_075",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 76,
+      "tile_id": "DEM_CN_076",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 77,
+      "tile_id": "DEM_CN_077",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 78,
+      "tile_id": "DEM_CN_078",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 79,
+      "tile_id": "DEM_CN_079",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 80,
+      "tile_id": "DEM_CN_080",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 81,
+      "tile_id": "DEM_CN_081",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 82,
+      "tile_id": "DEM_CN_082",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 83,
+      "tile_id": "DEM_CN_083",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 84,
+      "tile_id": "DEM_CN_084",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 85,
+      "tile_id": "DEM_CN_085",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 86,
+      "tile_id": "DEM_CN_086",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 87,
+      "tile_id": "DEM_CN_087",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 88,
+      "tile_id": "DEM_CN_088",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 89,
+      "tile_id": "DEM_CN_089",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 90,
+      "tile_id": "DEM_CN_090",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 91,
+      "tile_id": "DEM_CN_091",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 92,
+      "tile_id": "DEM_CN_092",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 93,
+      "tile_id": "DEM_CN_093",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 94,
+      "tile_id": "DEM_CN_094",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 95,
+      "tile_id": "DEM_CN_095",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 96,
+      "tile_id": "DEM_CN_096",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 97,
+      "tile_id": "DEM_CN_097",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 98,
+      "tile_id": "DEM_CN_098",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 99,
+      "tile_id": "DEM_CN_099",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 100,
+      "tile_id": "DEM_CN_100",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 101,
+      "tile_id": "DEM_CN_101",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 102,
+      "tile_id": "DEM_CN_102",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 103,
+      "tile_id": "DEM_CN_103",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 104,
+      "tile_id": "DEM_CN_104",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 105,
+      "tile_id": "DEM_CN_105",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 106,
+      "tile_id": "DEM_CN_106",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 107,
+      "tile_id": "DEM_CN_107",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 108,
+      "tile_id": "DEM_CN_108",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 109,
+      "tile_id": "DEM_CN_109",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 110,
+      "tile_id": "DEM_CN_110",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 111,
+      "tile_id": "DEM_CN_111",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 112,
+      "tile_id": "DEM_CN_112",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 113,
+      "tile_id": "DEM_CN_113",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 114,
+      "tile_id": "DEM_CN_114",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 115,
+      "tile_id": "DEM_CN_115",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 116,
+      "tile_id": "DEM_CN_116",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 117,
+      "tile_id": "DEM_CN_117",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 118,
+      "tile_id": "DEM_CN_118",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 119,
+      "tile_id": "DEM_CN_119",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 120,
+      "tile_id": "DEM_CN_120",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 121,
+      "tile_id": "DEM_CN_121",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 122,
+      "tile_id": "DEM_CN_122",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 123,
+      "tile_id": "DEM_CN_123",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 124,
+      "tile_id": "DEM_CN_124",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 125,
+      "tile_id": "DEM_CN_125",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 126,
+      "tile_id": "DEM_CN_126",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 127,
+      "tile_id": "DEM_CN_127",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 128,
+      "tile_id": "DEM_CN_128",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 129,
+      "tile_id": "DEM_CN_129",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 130,
+      "tile_id": "DEM_CN_130",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 131,
+      "tile_id": "DEM_CN_131",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 132,
+      "tile_id": "DEM_CN_132",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 133,
+      "tile_id": "DEM_CN_133",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 134,
+      "tile_id": "DEM_CN_134",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 135,
+      "tile_id": "DEM_CN_135",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 136,
+      "tile_id": "DEM_CN_136",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 137,
+      "tile_id": "DEM_CN_137",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 138,
+      "tile_id": "DEM_CN_138",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 139,
+      "tile_id": "DEM_CN_139",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 140,
+      "tile_id": "DEM_CN_140",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 141,
+      "tile_id": "DEM_CN_141",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 142,
+      "tile_id": "DEM_CN_142",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 143,
+      "tile_id": "DEM_CN_143",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 144,
+      "tile_id": "DEM_CN_144",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 145,
+      "tile_id": "DEM_CN_145",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 146,
+      "tile_id": "DEM_CN_146",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 147,
+      "tile_id": "DEM_CN_147",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 148,
+      "tile_id": "DEM_CN_148",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 149,
+      "tile_id": "DEM_CN_149",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 150,
+      "tile_id": "DEM_CN_150",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 151,
+      "tile_id": "DEM_CN_151",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 152,
+      "tile_id": "DEM_CN_152",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 153,
+      "tile_id": "DEM_CN_153",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 154,
+      "tile_id": "DEM_CN_154",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 155,
+      "tile_id": "DEM_CN_155",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 156,
+      "tile_id": "DEM_CN_156",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 157,
+      "tile_id": "DEM_CN_157",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 158,
+      "tile_id": "DEM_CN_158",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 159,
+      "tile_id": "DEM_CN_159",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 160,
+      "tile_id": "DEM_CN_160",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 161,
+      "tile_id": "DEM_CN_161",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 162,
+      "tile_id": "DEM_CN_162",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 163,
+      "tile_id": "DEM_CN_163",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 164,
+      "tile_id": "DEM_CN_164",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 165,
+      "tile_id": "DEM_CN_165",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 166,
+      "tile_id": "DEM_CN_166",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 167,
+      "tile_id": "DEM_CN_167",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 168,
+      "tile_id": "DEM_CN_168",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 169,
+      "tile_id": "DEM_CN_169",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 170,
+      "tile_id": "DEM_CN_170",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 171,
+      "tile_id": "DEM_CN_171",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 172,
+      "tile_id": "DEM_CN_172",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 173,
+      "tile_id": "DEM_CN_173",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 174,
+      "tile_id": "DEM_CN_174",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 175,
+      "tile_id": "DEM_CN_175",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 176,
+      "tile_id": "DEM_CN_176",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 177,
+      "tile_id": "DEM_CN_177",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 178,
+      "tile_id": "DEM_CN_178",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 179,
+      "tile_id": "DEM_CN_179",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 180,
+      "tile_id": "DEM_CN_180",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 181,
+      "tile_id": "DEM_CN_181",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 182,
+      "tile_id": "DEM_CN_182",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 183,
+      "tile_id": "DEM_CN_183",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 184,
+      "tile_id": "DEM_CN_184",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 185,
+      "tile_id": "DEM_CN_185",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 186,
+      "tile_id": "DEM_CN_186",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 187,
+      "tile_id": "DEM_CN_187",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 188,
+      "tile_id": "DEM_CN_188",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 189,
+      "tile_id": "DEM_CN_189",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 190,
+      "tile_id": "DEM_CN_190",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 191,
+      "tile_id": "DEM_CN_191",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 192,
+      "tile_id": "DEM_CN_192",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 193,
+      "tile_id": "DEM_CN_193",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 194,
+      "tile_id": "DEM_CN_194",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 195,
+      "tile_id": "DEM_CN_195",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 196,
+      "tile_id": "DEM_CN_196",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 197,
+      "tile_id": "DEM_CN_197",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 198,
+      "tile_id": "DEM_CN_198",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 199,
+      "tile_id": "DEM_CN_199",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 200,
+      "tile_id": "DEM_CN_200",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 201,
+      "tile_id": "DEM_CN_201",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 202,
+      "tile_id": "DEM_CN_202",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 203,
+      "tile_id": "DEM_CN_203",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 204,
+      "tile_id": "DEM_CN_204",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 205,
+      "tile_id": "DEM_CN_205",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 206,
+      "tile_id": "DEM_CN_206",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 207,
+      "tile_id": "DEM_CN_207",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 208,
+      "tile_id": "DEM_CN_208",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 209,
+      "tile_id": "DEM_CN_209",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 210,
+      "tile_id": "DEM_CN_210",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 211,
+      "tile_id": "DEM_CN_211",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 212,
+      "tile_id": "DEM_CN_212",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 213,
+      "tile_id": "DEM_CN_213",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 214,
+      "tile_id": "DEM_CN_214",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 215,
+      "tile_id": "DEM_CN_215",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 216,
+      "tile_id": "DEM_CN_216",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 217,
+      "tile_id": "DEM_CN_217",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 218,
+      "tile_id": "DEM_CN_218",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 219,
+      "tile_id": "DEM_CN_219",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 220,
+      "tile_id": "DEM_CN_220",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 221,
+      "tile_id": "DEM_CN_221",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 222,
+      "tile_id": "DEM_CN_222",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 223,
+      "tile_id": "DEM_CN_223",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 224,
+      "tile_id": "DEM_CN_224",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 225,
+      "tile_id": "DEM_CN_225",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 226,
+      "tile_id": "DEM_CN_226",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 227,
+      "tile_id": "DEM_CN_227",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 228,
+      "tile_id": "DEM_CN_228",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 229,
+      "tile_id": "DEM_CN_229",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 230,
+      "tile_id": "DEM_CN_230",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 231,
+      "tile_id": "DEM_CN_231",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 232,
+      "tile_id": "DEM_CN_232",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 233,
+      "tile_id": "DEM_CN_233",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 234,
+      "tile_id": "DEM_CN_234",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 235,
+      "tile_id": "DEM_CN_235",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 236,
+      "tile_id": "DEM_CN_236",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 237,
+      "tile_id": "DEM_CN_237",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 238,
+      "tile_id": "DEM_CN_238",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 239,
+      "tile_id": "DEM_CN_239",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 240,
+      "tile_id": "DEM_CN_240",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 241,
+      "tile_id": "DEM_CN_241",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 242,
+      "tile_id": "DEM_CN_242",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 243,
+      "tile_id": "DEM_CN_243",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 244,
+      "tile_id": "DEM_CN_244",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 245,
+      "tile_id": "DEM_CN_245",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 246,
+      "tile_id": "DEM_CN_246",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 247,
+      "tile_id": "DEM_CN_247",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 248,
+      "tile_id": "DEM_CN_248",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 249,
+      "tile_id": "DEM_CN_249",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 250,
+      "tile_id": "DEM_CN_250",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 251,
+      "tile_id": "DEM_CN_251",
+      "processing_priority": "normal"
+    },
+    {
+      "sequence": 252,
+      "tile_id": "DEM_CN_252",
+      "processing_priority": "normal"
+    }
+  ],
+  "blending_strategy": {
+    "primary_method": "feathering",
+    "secondary_method": "histogram_matching",
+    "edge_treatment": "gradient_blending",
+    "overlap_resolution": "weighted_average",
+    "quality_metrics": [
+      "rmse",
+      "correlation",
+      "edge_consistency"
+    ]
+  },
+  "quality_control": {
+    "validation_points": 1000,
+    "accuracy_threshold": 0.95,
+    "consistency_check": true,
+    "edge_analysis": true,
+    "statistical_validation": true
+  },
+  "estimated_processing_time": {
+    "base_time_minutes": 7560,
+    "with_conflicts_minutes": 11340.0,
+    "parallel_processing_minutes": 945.0,
+    "estimated_completion": "126 小时 0 分钟"
+  },
+  "resource_requirements": {
+    "memory_gb": 504,
+    "storage_tb": 25.200000000000003,
+    "cpu_cores": 16,
+    "recommended_gpu": true
+  }
+}
